@@ -13,6 +13,8 @@
 		8C72C87228635CBB00DE9578 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C72C87028635CBB00DE9578 /* Main.storyboard */; };
 		8C72C87428635CBD00DE9578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C72C87328635CBD00DE9578 /* Assets.xcassets */; };
 		8C72C87728635CBD00DE9578 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C72C87528635CBD00DE9578 /* LaunchScreen.storyboard */; };
+		8C72C88228635CE500DE9578 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C72C88028635CE500DE9578 /* AVKit.framework */; };
+		8C72C88328635CE500DE9578 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C72C88128635CE500DE9578 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8C72C87328635CBD00DE9578 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C72C87628635CBD00DE9578 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C72C87828635CBD00DE9578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C72C88028635CE500DE9578 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		8C72C88128635CE500DE9578 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C72C88328635CE500DE9578 /* AVFoundation.framework in Frameworks */,
+				8C72C88228635CE500DE9578 /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +48,7 @@
 			children = (
 				8C72C86928635CBB00DE9578 /* AVPlayerSample1 */,
 				8C72C86828635CBB00DE9578 /* Products */,
+				8C72C87F28635CE500DE9578 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +72,15 @@
 				8C72C87828635CBD00DE9578 /* Info.plist */,
 			);
 			path = AVPlayerSample1;
+			sourceTree = "<group>";
+		};
+		8C72C87F28635CE500DE9578 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C72C88128635CE500DE9578 /* AVFoundation.framework */,
+				8C72C88028635CE500DE9578 /* AVKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
